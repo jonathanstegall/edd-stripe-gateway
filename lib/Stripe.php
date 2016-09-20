@@ -21,6 +21,8 @@ if (!class_exists('Stripe')) {
 // Utilities
 if (!class_exists('Stripe_Util')) {
 	require(dirname(__FILE__) . '/Stripe/Util.php');
+}
+if (!class_exists('Stripe_Util_Set')) {
 	require(dirname(__FILE__) . '/Stripe/Util/Set.php');
 }
 
